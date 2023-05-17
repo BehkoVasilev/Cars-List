@@ -12,7 +12,7 @@ function CarList() {
             name: form.name
         }
     });
-    console.log(cars);
+    
     const handleDeleteClick = (id) => {
         dispatch(removeCar(id));
     }
