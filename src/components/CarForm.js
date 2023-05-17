@@ -25,9 +25,6 @@ function CarForm() {
         dispatch(addCar({
             name, cost
         }));
-        
-        dispatch(changeName(''));
-        dispatch(changeCost(0));
     }
 
     return <div className="car-form panel" >
