@@ -7,9 +7,9 @@ function App() {
     return (
         <div>
             <CarForm />
-            <CarList />
             <CarSearch />
             <CarValue />
+            <CarList />
         </div>
     )
 };
